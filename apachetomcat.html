@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APACHE e TOMCAT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #ddd;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        a{
+            color: white;
+        }
+        @media (max-width: 768px) {
+    header, footer {
+        padding: 0.5em 0;
+    }
+    
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    ul li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header a {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    h1, h2 {
+        font-size: 1.5em;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    ul li {
+        font-size: 12px;
+        padding: 8px;
+    }
+    
+    footer {
+        font-size: 12px;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">Inicio</a>
+        <h1>APACHE e TOMCAT</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Apache e Tomcat são dois componentes importantes em servidores web, mas servem a propósitos diferentes:
+            </h2>
+            <P>1. Apache HTTP Server (ou apenas Apache)**: É um servidor web de código aberto muito popular. Sua função principal é servir arquivos estáticos (como HTML, CSS, imagens) e gerenciar requisições HTTP. Ele pode ser configurado para suportar uma variedade de linguagens de script e pode ser integrado com módulos para adicionar funcionalidades adicionais, como autenticação e segurança.            </P>
+        </section>
+        <section>
+            <p>2.Apache Tomcat: É um servidor de aplicações Java, também de código aberto, que implementa as especificações de Java Servlet e JavaServer Pages (JSP). Tomcat é utilizado para rodar aplicações web que são escritas em Java. Ele é especializado em gerenciar e executar código Java e é frequentemente usado em combinação com o Apache HTTP Server para criar uma solução completa para aplicações web Java. O Apache HTTP Server pode atuar como um front-end para o Tomcat, passando as requisições Java para ele.
+            </p>
+        </section>  
+        <section>
+            <p>Em resumo, o Apache HTTP Server é mais voltado para servir conteúdo estático e gerenciar requisições HTTP, enquanto o Tomcat é focado em aplicações Java dinâmicas.</p>
+        </section>          
+        
+    </main>
+
+
+
+<br><br><br>
+    <footer>
+        <p>&copy; 2024 Conceitos W3C. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

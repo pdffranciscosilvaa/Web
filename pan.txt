@@ -1,0 +1,27 @@
+LAN, MAN, WAN e PAN são acrônimos que descrevem diferentes tipos de redes de computadores, cada uma com seu próprio alcance e finalidade:
+
+1. **LAN (Local Area Network)**:
+   - **Descrição**: Rede de área local.
+   - **Alcance**: Geralmente cobre uma área pequena, como uma casa, escritório ou edifício.
+   - **Uso**: Conecta dispositivos dentro de uma localização próxima, permitindo compartilhamento de recursos como impressoras e arquivos.
+   - **Exemplo**: Rede de computadores em uma empresa ou na sua casa.
+
+2. **MAN (Metropolitan Area Network)**:
+   - **Descrição**: Rede de área metropolitana.
+   - **Alcance**: Cobre uma área maior do que uma LAN, como uma cidade ou um campus universitário.
+   - **Uso**: Conecta várias LANs dentro de uma área geográfica maior, facilitando a comunicação entre diferentes locais dentro da mesma cidade ou região.
+   - **Exemplo**: A rede que conecta várias filiais de uma empresa em uma cidade ou a rede de uma universidade com vários prédios.
+
+3. WAN (Wide Area Network):
+   - Descrição: Rede de área ampla.
+   - Alcance: Cobre uma área geograficamente extensa, que pode incluir cidades, países ou até continentes.
+   - Uso: Conecta redes LAN e MAN em distâncias muito grandes, permitindo a comunicação global e o compartilhamento de recursos em escala ampla.
+   - Exemplo: A Internet é o maior exemplo de uma WAN, conectando redes e dispositivos em todo o mundo.
+
+4. **PAN (Personal Area Network)**:
+   - **Descrição**: Rede de área pessoal.
+   - **Alcance**: Geralmente cobre uma área muito pequena, como a área ao redor de uma pessoa.
+   - **Uso**: Conecta dispositivos pessoais próximos, como smartphones, laptops e dispositivos de áudio, geralmente sem fio.
+   - **Exemplo**: A conexão Bluetooth entre um smartphone e um fone de ouvido.
+
+Cada tipo de rede tem seu próprio propósito e é projetado para diferentes necessidades de comunicação e conectividade.

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceitos de Servidor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #ddd;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        a{
+            color: white;
+        }
+        @media (max-width: 768px) {
+    header, footer {
+        padding: 0.5em 0;
+    }
+    
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    ul li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header a {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    h1, h2 {
+        font-size: 1.5em;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    ul li {
+        font-size: 12px;
+        padding: 8px;
+    }
+    
+    footer {
+        font-size: 12px;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">Inicio</a>
+
+        <h1>Conceitos de Servidor</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Servidores</h2>
+            <p>Um servidor é um computador ou sistema de computadores que fornece serviços, recursos, dados ou programas a outros computadores, conhecidos como clientes, através de uma rede. Os servidores são uma parte essencial da infraestrutura de TI e da internet, facilitando a comunicação, armazenamento de dados, processamento de solicitações e a execução de diversas tarefas em um ambiente de rede.</p>
+
+            <h3>Principais Tipos de Servidores:</h3>
+            <ul>
+                <li><strong>Servidor Web:</strong> Hospeda sites e entrega páginas web aos navegadores dos usuários através do protocolo HTTP ou HTTPS.</li>
+                <li><strong>Servidor de Arquivos:</strong> Armazena e gerencia arquivos, permitindo que os usuários armazenem, recuperem e compartilhem arquivos em uma rede.</li>
+                <li><strong>Servidor de Banco de Dados:</strong> Gerencia bancos de dados e processa solicitações de clientes para armazenar, recuperar e manipular dados.</li>
+                <li><strong>Servidor de E-mail:</strong> Gerencia o envio, recebimento e armazenamento de e-mails para usuários de uma rede.</li>
+                <li><strong>Servidor de Aplicações:</strong> Hospeda e executa aplicativos para usuários, como sistemas de gestão empresarial, plataformas de e-commerce, etc.</li>
+                <li><strong>Servidor de DNS (Domain Name System):</strong> Traduza nomes de domínio legíveis por humanos (como www.exemplo.com) em endereços IP que computadores usam para identificar uns aos outros na rede.</li>
+            </ul>
+
+            <h3>Funcionamento Básico de um Servidor:</h3>
+            <ul>
+                <li><strong>Modelo Cliente-Servidor:</strong> Os servidores funcionam com base no modelo cliente-servidor. Um cliente (que pode ser um computador, dispositivo móvel ou outro servidor) faz uma solicitação de um recurso ou serviço, e o servidor processa essa solicitação e responde com o recurso ou serviço solicitado.</li>
+                <li><strong>Processamento de Solicitações:</strong> Quando um cliente envia uma solicitação ao servidor, este processa a solicitação, realiza as operações necessárias (como recuperar dados de um banco de dados, executar um script ou enviar um arquivo) e envia uma resposta de volta ao cliente.</li>
+            </ul>
+
+            <h3>Exemplos de Uso de Servidores:</h3>
+            <ul>
+                <li><strong>Internet:</strong> A internet é composta por milhares de servidores web que hospedam sites e conteúdos acessíveis globalmente.</li>
+                <li><strong>Empresas:</strong> As empresas utilizam servidores para hospedar seus aplicativos internos, gerenciar arquivos e bancos de dados, fornecer serviços de e-mail e muito mais.</li>
+            </ul>
+
+            <h3>Importância dos Servidores:</h3>
+            <ul>
+                <li><strong>Disponibilidade de Recursos:</strong> Servidores garantem que recursos e serviços estejam disponíveis para clientes a qualquer momento.</li>
+                <li><strong>Centralização:</strong> Servidores permitem a centralização de dados e aplicativos, facilitando a gestão, segurança e manutenção.</li>
+                <li><strong>Escalabilidade:</strong> A arquitetura de servidores pode ser escalada para atender a um número crescente de solicitações e usuários.</li>
+            </ul>
+
+            <p>Em resumo, servidores são componentes essenciais em redes de computadores, desempenhando um papel vital na prestação de serviços e recursos para usuários e outros sistemas.</p>
+        </section>
+
+        <img src="servidor.png" alt="">
+    </main>
+    <footer>
+        <p>&copy; 2024 Conceitos de Servidor. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

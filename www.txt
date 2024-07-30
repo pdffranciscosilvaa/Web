@@ -1,0 +1,25 @@
+A World Wide Web (WWW), também conhecida simplesmente como Web, é um sistema de documentos hipermídia interligados e acessados pela internet. Foi inventada por Tim Berners-Lee em 1989 e revolucionou a maneira como a informação é compartilhada e acessada globalmente. 
+
+### Principais Características da WWW:
+
+1. **Hipermídia**: A Web usa hipermídia, que combina texto, imagens, vídeos e outros tipos de mídia, permitindo a criação de conteúdo rico e interativo.
+
+2. **Hyperlinks**: Links de hipertexto permitem que os usuários naveguem de um documento para outro de maneira não linear, criando uma rede de informações interconectadas.
+
+3. **HTTP (HyperText Transfer Protocol)**: É o protocolo usado para transferir os documentos da Web. Ele define como mensagens são formatadas e transmitidas, e como os navegadores e servidores web devem responder a vários comandos.
+
+4. **HTML (HyperText Markup Language)**: É a linguagem de marcação padrão para criar páginas web. Ela permite a estruturação de conteúdo usando elementos como cabeçalhos, parágrafos, listas, links, imagens e outros.
+
+5. **URLs (Uniform Resource Locators)**: São os endereços usados para localizar recursos na Web. Um URL especifica a localização de um recurso e o mecanismo usado para recuperá-lo.
+
+### Funcionamento Básico:
+
+- **Cliente-Servidor**: A Web funciona em um modelo cliente-servidor. O navegador web (cliente) envia uma solicitação HTTP para um servidor web. O servidor processa a solicitação e retorna a página web solicitada ao navegador, que a exibe ao usuário.
+
+- **Navegadores**: Os navegadores web, como Google Chrome, Mozilla Firefox, Safari e Microsoft Edge, são usados para acessar e visualizar páginas web. Eles interpretam o código HTML e exibem o conteúdo formatado na tela do usuário.
+
+### Importância da WWW:
+
+A Web é uma plataforma fundamental para a comunicação, educação, comércio, entretenimento e muito mais. Ela permite a troca rápida de informações, conecta pessoas ao redor do mundo e facilita inúmeras atividades diárias, desde o envio de e-mails até o streaming de vídeos e compras online.
+
+Em resumo, a World Wide Web é um dos componentes mais importantes da internet, transformando a maneira como acessamos e interagimos com a informação.

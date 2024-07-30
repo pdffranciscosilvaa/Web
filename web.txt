@@ -1,0 +1,31 @@
+O conceito de "Web" refere-se à World Wide Web (WWW), que é um sistema de documentos hipermídia interligados e acessados via a internet. A Web é um dos serviços mais populares da internet e permite a navegação de sites através de navegadores como Google Chrome, Mozilla Firefox, Safari, entre outros.
+
+Aqui estão os principais componentes e conceitos associados à Web:
+
+1. **HTML (HyperText Markup Language)**: É a linguagem de marcação usada para criar e estruturar o conteúdo das páginas web. Ele permite a inserção de texto, imagens, links, vídeos, e outros elementos multimídia.
+
+2. **HTTP (HyperText Transfer Protocol)**: É o protocolo de comunicação usado para transferir dados na Web. Quando você digita um endereço web no seu navegador, uma solicitação HTTP é enviada ao servidor onde o site está hospedado, e o servidor responde com os dados da página.
+
+3. **URLs (Uniform Resource Locators)**: São os endereços que você digita no navegador para acessar um site. Eles indicam a localização de recursos específicos na Web.
+
+4. **Browsers (Navegadores)**: São os programas usados para acessar e visualizar páginas web. Exemplos incluem Google Chrome, Mozilla Firefox, Safari e Microsoft Edge.
+
+5. **CSS (Cascading Style Sheets)**: É uma linguagem usada para descrever a apresentação de um documento HTML. Ele controla o layout, cores, fontes, e outros aspectos visuais das páginas web.
+
+6. **JavaScript**: É uma linguagem de programação que permite a criação de conteúdo interativo e dinâmico nas páginas web. É amplamente utilizada para melhorar a experiência do usuário.
+
+7. **Servidores Web**: São computadores que armazenam e servem páginas web aos usuários. Quando um navegador faz uma solicitação para uma página, o servidor web processa a solicitação e envia a página de volta ao navegador.
+
+8. **HTTP/HTTPS**: HTTP é o protocolo básico para comunicação na Web, enquanto HTTPS (HTTP Secure) é a versão segura, que criptografa os dados transmitidos entre o navegador e o servidor para proteger a privacidade e a integridade dos dados.
+
+A Web foi inventada por Tim Berners-Lee em 1989 enquanto ele trabalhava no CERN, e desde então tem evoluído constantemente, incorporando novas tecnologias e padrões para melhorar a funcionalidade, acessibilidade e segurança dos recursos online.
+
+
+
+Apache e Tomcat são dois componentes importantes em servidores web, mas servem a propósitos diferentes:
+
+1. **Apache HTTP Server (ou apenas Apache)**: É um servidor web de código aberto muito popular. Sua função principal é servir arquivos estáticos (como HTML, CSS, imagens) e gerenciar requisições HTTP. Ele pode ser configurado para suportar uma variedade de linguagens de script e pode ser integrado com módulos para adicionar funcionalidades adicionais, como autenticação e segurança.
+
+2. **Apache Tomcat**: É um servidor de aplicações Java, também de código aberto, que implementa as especificações de Java Servlet e JavaServer Pages (JSP). Tomcat é utilizado para rodar aplicações web que são escritas em Java. Ele é especializado em gerenciar e executar código Java e é frequentemente usado em combinação com o Apache HTTP Server para criar uma solução completa para aplicações web Java. O Apache HTTP Server pode atuar como um front-end para o Tomcat, passando as requisições Java para ele.
+
+Em resumo, o Apache HTTP Server é mais voltado para servir conteúdo estático e gerenciar requisições HTTP, enquanto o Tomcat é focado em aplicações Java dinâmicas.
